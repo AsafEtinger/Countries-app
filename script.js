@@ -92,7 +92,7 @@ const moreCountryData = async function (country) {
         <h1 class="country-language">Language - ${moreCountryJson.languages[0].name}</h1>
         <h1 class="country-capital">Capital - ${moreCountryJson.capital}</h1>
         <h1 class="country-nativeName">Native name - ${moreCountryJson.nativeName}</h1>
-        <h1 class="country-regin">Regin - ${moreCountryJson.region}</h1>
+        <h1 class="country-regin">Region - ${moreCountryJson.region}</h1>
         <h1 class="country-currencies">Currencies - ${moreCountryJson.currencies[0].code} ${moreCountryJson.currencies[0].symbol}</h1>
         <h1 class="country-borders">Borders - ${moreCountryJson.borders}</h1>
       </div> 
