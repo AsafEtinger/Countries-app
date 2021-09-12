@@ -99,7 +99,7 @@ const moreCountryData = async function (country) {
       </div>`
     );
 
-    moreCountryContainer.classList.toggle("hidden");
+    moreCountryContainer.classList.remove("hidden");
     overlay.classList.remove("hidden");
     footer.classList.add("hidden");
 

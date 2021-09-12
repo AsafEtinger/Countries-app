@@ -89,6 +89,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
+  /* border: salmon 2px solid; */
 }
 
 .big-country-card {
@@ -96,4 +97,5 @@ body {
   width: 40%;
   background: white;
   border-radius: 20px;
+  /* border: orange 2px solid; */
 }
