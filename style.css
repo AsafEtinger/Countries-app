@@ -13,7 +13,7 @@ body {
   /* flex-direction: column; */
   width: 100%;
   height: 100%;
-  border: purple 2px solid;
+  /* border: purple 2px solid; */
 }
 
 .country-card {
@@ -61,4 +61,39 @@ body {
 
   /* border: green 2px solid; */
   justify-content: center;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* -----------bigger card--------- */
+
+.more-country-info {
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.big-country-card {
+  margin: auto;
+  width: 40%;
+  background: white;
+  border-radius: 20px;
 }
