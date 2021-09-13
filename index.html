@@ -9,44 +9,48 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="search-box-container">
-      <div class="search-box">
-        <input class="input-search" type="text" placeholder=" Type in a country..">
-        <button class="btn-search">Search</button>
-      </div>
-    </div>
-      <div class="display-container">
-        <!-- <div class="country-card">
-          <div class="flag">
-            <img src="https://restcountries.eu/data/isr.svg" />
+      <div class="search-box-container">
+        <div class="search-box wrapper show">
+          <input class="input-search" type="text" id="search" autocomplete="chrome-off" placeholder=" Type in a country..">
+          <button class="btn-search">Search</button>
+          <div class="results">
+            <ul></ul>
           </div>
-          <div class="country-info">
-            <h1 class="country-name">countryJson.name</h1>
-            <h1 class="country-language">countryJson.language</h1>
-            <h1 class="country-popolation">countryJson.population</h1>
-          </div> -->
         </div>
       </div>
-      <div class="more-country-info hidden">
-        <div class="overlay hidden">
-           <div class="big-country-card">
-                <!-- <div class="flag">
-                <img src="https://restcountries.eu/data/isr.svg" />
-              </div>
-              <div class="country-info">
-                <h1 class="country-name">countryJson.name</h1>
-                <h1 class="country-language">countryJson.language</h1>
-                <h1 class="country-capital">countryJson.capital</h1>
-                <h1 class="country-nativeName">countryJson.nativeName</h1>
-                <h1 class="country-regin">countryJson.regin</h1>
-                <h1 class="country-currencies">countryJson.currencies</h1>
-                <h1 class="country-borders">countryJson.borders</h1>
-              </div>  -->
-         </div>
+        <div class="display-container">
+          <!-- <div class="country-card">
+            <div class="flag">
+              <img src="https://restcountries.eu/data/isr.svg" />
+            </div>
+            <div class="country-info">
+              <h1 class="country-name">countryJson.name</h1>
+              <h1 class="country-language">countryJson.language</h1>
+              <h1 class="country-popolation">countryJson.population</h1>
+            </div> -->
+          </div>
         </div>
-      </div>
-      <footer class="footer hidden">
-        <h3>For more info on the country click the Flag!</h3>
-      </footer>
+        <div class="more-country-info hidden">
+          <div class="overlay hidden">
+            <div class="big-country-card">
+                  <!-- <div class="flag">
+                  <img src="https://restcountries.eu/data/isr.svg" />
+                </div>
+                <div class="country-info">
+                  <h1 class="country-name">countryJson.name</h1>
+                  <h1 class="country-language">countryJson.language</h1>
+                  <h1 class="country-capital">countryJson.capital</h1>
+                  <h1 class="country-nativeName">countryJson.nativeName</h1>
+                  <h1 class="country-regin">countryJson.regin</h1>
+                  <h1 class="country-currencies">countryJson.currencies</h1>
+                  <h1 class="country-borders">countryJson.borders</h1>
+                </div>  -->
+          </div>
+          </div>
+        </div>
+        <footer class="footer hidden">
+          <h3>For more info on the country click the Flag!</h3>
+        </footer>
+    
   </body>
 </html>
